@@ -1,0 +1,49 @@
+/* .brand-name {
+    flex-basis: 1;
+    width     : 200px;
+} */
+
+.brand-name {
+    font-size  : 1.5rem;
+    font-weight: 600;
+    color      : var(--main-color);
+}
+
+.text-color {
+    color: var(--blue);
+
+}
+
+.nav-item,
+.resume {
+    font-size  : 1rem;
+    font-weight: 600;
+    transition : color 0.4s;
+    cursor     : pointer;
+}
+
+.nav-item:hover {
+    color: var(--blue) !important;
+}
+
+.resume {
+    border       : 1px var(--blue-dark) solid;
+    border-radius: 10px;
+    transition   : all 0.4s;
+
+}
+
+.resume:hover {
+    background-color: var(--pink-light);
+    color           : var(--main-color);
+}
+
+.extra-menu {
+    width          : 200px;
+    margin         : 0 20px;
+    display        : flex;
+    justify-content: space-between;
+}
+.active{
+    color: var(--blue) !important;
+}
