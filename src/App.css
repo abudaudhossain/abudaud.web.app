@@ -27,7 +27,9 @@ common style
   padding    : 0;
   font-family: var(--font-family);
 }
-
+p{
+  font-size: 1.2rem;
+}
 h1,
 h2 {
   font-weight: 700;

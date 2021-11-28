@@ -1,0 +1,30 @@
+.about-img-area {
+    height          : 450px;
+    width           : 90%;
+    background-color: var(--white-alpha-25);
+    border          : 1px var(--white-alpha-40) solid;
+    border-radius   : 30px;
+    margin-right    : 50px;
+}
+h3.skill-text {
+    font-size  : 1.5rem;
+    font-weight: bold;
+    margin     : 20px 0;
+    position   : relative;
+
+}
+
+h3.skill-text::before {
+    content         : '';
+    width           : 100%;
+    height          : 2px;
+    background-color: var(--main-color);
+    position        : absolute;
+    bottom          : 0;
+}
+span.skill-myBtn {
+    padding-top   : 2.5px;
+    padding-bottom: 2.5px;
+    color         : var(--blue-dark);
+    font-weight   : 500;
+}

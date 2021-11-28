@@ -20,7 +20,8 @@ const TopNavbar = () => {
 
                     </Nav>
                     <Nav className="extra-menu">
-                        <Button variant="outline-success">Resume</Button>
+                        <Button variant="outline-success"> <a href="https://drive.google.com/file/d/1gItOSegjLJ_bxnvYY4u9S9o11A6EQs3H/view" target="_blank" rel="noopener noreferrer">Resume</a></Button>
+                       
                     </Nav>
                 </Navbar.Collapse>
             </Container>
