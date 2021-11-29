@@ -1,0 +1,16 @@
+.card-img{
+    border       : 8px var(--white-alpha-40) solid !important;
+    border-radius: 10px;
+    box-sizing   : border-box;
+    overflow       : hidden;
+
+}
+.card img{
+    transition:all 0.5s !important;
+}
+.card{
+    overflow: hidden;
+}
+.card:hover img{
+    transform: scale(1.1);
+}

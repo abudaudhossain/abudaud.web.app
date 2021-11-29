@@ -1,7 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import "./Hero.css"
+import "./Hero.css";
+import heroImg from "../../../profile.png";
 
 const Hero = () => {
     return (
@@ -19,7 +20,7 @@ const Hero = () => {
                 </Col>
                 <Col sm={12} lg={5} className="order-0 py-5 order-lg-1">
                     <div className="img-area">
-                        <img src="./img/PROFIL.jpg" alt=""/>
+                        <img src={heroImg} alt=""/>
                     </div>
                 </Col>
             </Row>
