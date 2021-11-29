@@ -12,11 +12,12 @@ const ContactUs = () => {
             <Container className="py-5">
                 <Row>
                     <Col xs={12} md={12} lg={6}>
-                        <form action="https://formsubmit.co/abudaudhossainsumon@email.com" method="POST">
-                            <input type="text" placeholder="Name" name="name" required/>
-                            <input type="email" placeholder="Email" name="email" required/>
+                        <form action="https://formsubmit.co/dbf74f829bccac24fc1b8f59a048d6e9 " method="POST">
+                            <input type="hidden" name="_next" value="https://abudaud.netlify.app/messageSend" />
+                            <input type="text" placeholder="Name" name="name" required />
+                            <input type="email" placeholder="Email" name="email" required />
                             <input type="text" placeholder="Subject" />
-                            <textarea name="message"  id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
                             <input className="myBtn ml-2" type="submit" />
                         </form>
                     </Col>
@@ -42,7 +43,7 @@ const ContactUs = () => {
                                     <a className="" href="https://twitter.com/webexpert24abu" target="_blank" rel="noreferrer"><span
                                         className="icon"><i className="fa fa-twitter"></i></span></a>
                                     <a href="https://www.fiverr.com/webexpert24abu" target="_blank" className="" rel="noreferrer"><span
-                                        className="icon"><img src={fiverIcon} alt="" srcset=""/></span></a>
+                                        className="icon"><img src={fiverIcon} alt="" srcSet="" /></span></a>
                                 </div>
 
                             </div>

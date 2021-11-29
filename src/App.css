@@ -6,11 +6,12 @@
 :root {
   --main-color          : #e02f6b;
   --blue                : #0000ff;
-  --blue-dark           : #18293c;
+  --blue-dark           : #fff;
+  /* --blue-dark           : #18293c; */
   --orange              : #ffa500;
   --green-yellow        : #cddc39;
-  --pink-light          : #d133d1;
-  --cyan-light          : #923ff1;
+  --pink-light          : #1d0750;
+  --cyan-light          : #1d0750;
   --white               : #ffffff;
   --white-alpha-40      : rgba(255, 255, 255, 0.40);
   --white-alpha-25      : rgba(255, 255, 255, 0.25);
@@ -142,6 +143,7 @@ body {
   min-height      : 100vh;
   font-size       : 16px;
   color           : var(--blue-dark);
+  /* color           : #fff; */
   line-height     : 1.5;
 }
 
@@ -150,8 +152,8 @@ main style
 ================= */
 main {
   width           : 90%;
-  background-color: var(--white-alpha-25);
-  border          : 1px var(--white-alpha-40) solid;
+  /* background-color: var(--white-alpha-25); */
+  /* border          : 1px var(--white-alpha-40) solid; */
   border-radius   : 30px;
   margin          : 20px auto;
 

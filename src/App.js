@@ -9,6 +9,7 @@ import AboutUs from './Pages/AboutUs/AboutUs/AboutUs';
 import ContactUs from "./Pages/ContactUs/ContactUs/ContactUs";
 import Portfolio from "./Pages/Portfolio/Portfolio/Portfolio";
 import TopNavbar from "./Pages/Shared/TopNavbar/TopNavbar";
+import Thanks from "./Pages/Thanks/Thanks";
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' element={<AboutUs />} />
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/messageSend' element={<Thanks />} />
           
         </Routes>
 

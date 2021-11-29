@@ -1,23 +1,25 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import dentalCare from "../../../dentalCare.png"
 import "./Project.css"
 
-const Project = () => {
+const Project =({myProject}) => {
+    console.log(myProject)
     return (
-        <Card style={{ width: '100%' }}>
-            <Card.Img className="card-img" variant="top" src={dentalCare}/>
+        <Card className=" h-100" style={{ width: '100%' }}>
+            <Card.Img className="card-img" variant="top" src={myProject.image}/>
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>{myProject.name}</Card.Title>
                 <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    { myProject.description.slice(0, 50)}...
                 </Card.Text>
             </Card.Body>
             <Card.Body>
-                <Card.Link href="#">Live Link</Card.Link>
-                <Card.Link href="#">Code Link</Card.Link>
-                <Card.Link href="#">sever code Link</Card.Link>
+                <Card.Link href={myProject.link.live}>Live Link</Card.Link>
+                <Card.Link href={myProject.link.client}>Code Link</Card.Link>
+                {
+                    myProject.link.server &&
+                    <Card.Link href={myProject.link.server}>Sever code Link</Card.Link>
+                }
             </Card.Body>
         </Card>
     );

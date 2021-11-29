@@ -1,0 +1,137 @@
+[
+    {
+        "serialNo": 1,
+        "name": "Online Bike Shope",
+        "description": "This is a versatile and user-friendly Shopify website. The specially designed Shop Page of This is ideal for showcasing products in the most attractive way. Not just Homepage or Shop Page, I use other inbuilt layouts for inner pages such as Explore, DashBoard Page in an equally attractive way. This makes it all easy.",
+        "technology": [
+            "HTML",
+            "Material-UI",
+            "JavaScript",
+            "React",
+            "Node",
+            "Express.js",
+            "MongoDB"
+        ],
+        "features": [
+            "A MERN stack web application with a dynamic services section.",
+            "Firebase Authentication and registration by email, password, and name",
+            "An admin can add a new service that will be visible in the services and can make a new admin",
+            "Has client feedback option. A client can tell us of his observation * Client Order Product and see All Order",
+            "Use React Router, Route will be private/protected routes and Use Context API"
+        ],
+        "image": "https://i.ibb.co/VHVrytS/Motor-Bike.png",
+        "link": {
+            "live": "https://online-bike-shop.web.app/",
+            "client": "https://github.com/abudaudhossain/Online-Bike-Shope-client",
+            "server": "https://github.com/abudaudhossain/Online-Bike-Shope-server"
+        }
+    },
+    {
+        "serialNo": 2,
+        "name": "SD Travel Agency",
+        "description": "Users can see all offers or services that provide SDTravel Agency on this website. Users can book any services and delete their own booking service. also, can manage booking services.",
+        "technology": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "React",
+            "Node",
+            "Express.js",
+            "MongoDB"
+        ],
+        "features": [
+            "Firebase Authentication and Login By Google ",
+            "use React Router",
+            "Route will be private/protected routes",
+            "Use Context API",
+            "A MERN stack web application with a dynamic services section",
+            "An admin can add a new service that will be visible in the services",
+            "the user can book any serves and show all booking and delete any item"
+        ],
+        "image": "https://i.ibb.co/khN2vt6/travel-Agency.png",
+        "link": {
+            "live": "https://sd-travel-agency.web.app/",
+            "client": "https://github.com/abudaudhossain/sd-travel-agency-client",
+            "server": "https://github.com/abudaudhossain/sd-travel-agency-server"
+        }
+    },
+    {
+        "serialNo": 3,
+        "name": "Dental Care",
+        "description": "Dental care is a user-friendly website, users see to here dentists and medical services. users can be booking any service. It is fully responsive with a modern and clean design, unlimited color options, and an easy-to-use page builder",
+        "technology": [
+            "HTML",
+            "Bootstrap",
+            "JavaScript",
+            "React JS"
+        ],
+        "features": [
+            "Firebase Authentication",
+            "Registration by email, password and name",
+            "Login by email and password",
+            "Also Login By Google",
+            "Users should be able to toggle between Login and Registration view",
+            "Use React Router",
+            "Route will be private/protected routes",
+            "Use Context API"
+        ],
+        "image": "https://i.ibb.co/BThMwFm/dental-Care.png",
+        "link": {
+            "live": "https://dental-care-4d3d8.web.app/",
+            "client": "https://github.com/abudaudhossain/dental-care"
+        }
+    },
+    {
+        "serialNo": 4,
+        "name": "Language Park",
+        "description": "Language Park website is a learning site. Here users see learning course and teacher info.",
+        "technology": [
+            "React JS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "features": [
+            "React Router",
+            "API",
+            "Contact Form"
+        ],
+        "image": "https://i.ibb.co/vBBbhRL/language-Park.png",
+        "link": {
+            "live": "https://language-park-abudaud.netlify.app/",
+            "client": "https://github.com/abudaudhossain/Language-Park"
+        }
+    },
+    {
+        "serialNo": 5,
+        "name": "Universities",
+        "description": "This website content top universities information in word. Users see information and user can add to the cart and delete also. See University rank and cost.",
+        "technology": [
+            "React JS",
+            "JavaScript",
+            "CSS3"
+        ],
+        "features": [
+            "Users can add an item and delete",
+            "Clear added cart",
+            "See total select item prices"
+        ],
+        "image": "https://i.ibb.co/6Bjj4jB/universities.png",
+        "link": {
+            "live": "https://universities-details-app.netlify.app/",
+            "client": "https://github.com/abudaudhossain/universities-details-app"
+        }
+    },
+    {
+        "serialNo": 6,
+        "name": "Copa America",
+        "description": "This is simple response website. use HTML CSS3 and grid system",
+        "technology": ["HTML", "CSS", "JavaScript","API"],
+        "features": [],
+        "image": "https://i.ibb.co/ftVF7cQ/football.png",
+        "link": {
+            "live": "https://abudaudhossain.github.io/responsive-football/index.html",
+            "client": "https://github.com/abudaudhossain/responsive-football"
+        }
+    }
+]
