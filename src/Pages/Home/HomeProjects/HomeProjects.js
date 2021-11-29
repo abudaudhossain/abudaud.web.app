@@ -11,8 +11,8 @@ const HomeProjects = () => {
             </header>
             <Container className="my-5">
                 <Row className="m-auto">
-                    <Col className="col-sm-12 col-md-6 col-lg-4">
-                        <Card style={{ width: '100%' }}>
+                    <Col className="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                        <Card className=" h-100" style={{ width: '100%' }}>
                             <Card.Img className="card-img" variant="top" src="https://i.ibb.co/xL53D47/Motor-Bike.png" />
                             <Card.Body>
                                 <Card.Title>Motor Bike Shope</Card.Title>
@@ -27,8 +27,8 @@ const HomeProjects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className="col-sm-12 col-md-6 col-lg-4">
-                        <Card style={{ width: '100%' }}>
+                    <Col className="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                        <Card className=" h-100" style={{ width: '100%' }}>
                             <Card.Img className="card-img" variant="top" src="https://i.ibb.co/160XsvT/dental-Care.png" />
                             <Card.Body>
                                 <Card.Title>Dental Care</Card.Title>
@@ -43,8 +43,8 @@ const HomeProjects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className="col-sm-12 col-md-6 col-lg-4">
-                        <Card style={{ width: '100%' }}>
+                    <Col className="col-12 col-sm-12 col-md-6 col-lg-4  my-3">
+                        <Card className="h-100" style={{ width: '100%' }}>
                             <Card.Img className="card-img" variant="top" src="https://i.ibb.co/6Zzk6gK/travel-Agency.png" />
                             <Card.Body>
                                 <Card.Title>SD Travel Agency</Card.Title>
@@ -59,7 +59,9 @@ const HomeProjects = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-
+                    
+                
+                     
 
                 </Row>
             </Container>

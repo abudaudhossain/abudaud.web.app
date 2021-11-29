@@ -14,7 +14,7 @@ import TopNavbar from "./Pages/Shared/TopNavbar/TopNavbar";
 
 function App() {
   return (
-    <main className="App">
+    <main>
       <BrowserRouter>
         <TopNavbar/>
         <Routes>
