@@ -1,8 +1,8 @@
-/* .brand-name {
-    flex-basis: 1;
-    width     : 200px;
-} */
-
+.navbar-bg{
+    background: #1f0955d5;
+    /* border-bottom: 1px solid #1d0750; */
+    box-shadow: rgba(31, 10, 82, 0.192) 0px 5px 0px;
+}
 .brand-name {
     font-size  : 1.5rem;
     font-weight: 600;
@@ -11,7 +11,6 @@
 
 .text-color {
     color: var(--blue);
-
 }
 
 .nav-item,

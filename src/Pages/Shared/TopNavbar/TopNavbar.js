@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
-import "./TopNavbar.css"
+import "./TopNavbar.css" 
 
 const TopNavbar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect expand="lg" className="sticky-top navbar-bg shadow-sm ">
             <Container>
                 <Navbar.Brand className="brand-name" as={Link} to="/home">
                         Abu<span className="text-color">Daud.</span>

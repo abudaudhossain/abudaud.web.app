@@ -15,9 +15,9 @@ import Thanks from "./Pages/Thanks/Thanks";
 
 function App() {
   return (
-    <main>
-      <BrowserRouter>
-        <TopNavbar/>
+    <BrowserRouter>
+      <TopNavbar />
+      <main>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
@@ -25,11 +25,11 @@ function App() {
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/messageSend' element={<Thanks />} />
-          
+
         </Routes>
 
-      </BrowserRouter>
-    </main>
+      </main>
+    </BrowserRouter>
   );
 }
 
