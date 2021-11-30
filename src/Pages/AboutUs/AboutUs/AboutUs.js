@@ -1,10 +1,11 @@
 import React from 'react';
+import AboutHeader from '../AboutHeader/AboutHeader';
 
 const AboutUs = () => {
     return (
-        <div className="my-5 text-center">
-        <h1>Coming Soon</h1>
-    </div>
+       <div>
+           <AboutHeader/>
+       </div>
     );
 };
 

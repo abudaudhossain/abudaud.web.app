@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import useFeckData from '../../../hooks/feckData';
-import img from "../../../img2.png";
-import profile from "../../../profile.png";
+import img from "../../../dentalCare.png";
+import profile from "../../../img2.png";
 
 const Details = () => {
     let img2;
