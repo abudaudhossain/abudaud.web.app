@@ -40,7 +40,7 @@ const AboutHeader = () => {
                 <Col sm={12} lg={7} className="px-5">
                     <div  className="text-area">
                         <div>
-                            <img width="550" alt="Abu Daud Hossain Github Stats" src="https://github-readme-stats.vercel.app/api?username=abudaudhossain&show_icons=true&theme=solarized-light" />
+                        <img width="300" alt="Abu Daud Hossain Github Stats"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=abudaudhossain&card_width=550&langs_count=8&theme=yeblu&layout=compact"/>
                         </div>
                         <div>
                             <h3  className="skill-text">Programming Languages</h3>
