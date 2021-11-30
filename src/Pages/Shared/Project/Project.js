@@ -6,7 +6,10 @@ const Project =({myProject}) => {
     console.log(myProject)
     return (
         <Card className=" h-100" style={{ width: '100%' }}>
-            <Card.Img className="card-img" variant="top" src={myProject.image}/>
+            <div className="card-img" >
+
+            <Card.Img variant="top" src={myProject.image}/>
+            </div>
             <Card.Body>
                 <Card.Title>{myProject.name}</Card.Title>
                 <Card.Text>

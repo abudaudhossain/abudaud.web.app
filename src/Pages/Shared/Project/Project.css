@@ -10,6 +10,7 @@
 }
 .card{
     overflow: hidden;
+    background: rgba(65, 39, 112, 0.836);
 }
 .card:hover img{
     transform: scale(1.1);
