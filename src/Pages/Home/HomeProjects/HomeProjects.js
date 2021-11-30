@@ -15,7 +15,7 @@ const HomeProjects = () => {
     return (
         <section id="project">
             <header>
-                <h2 class='title-text' style={{ width: "200px", margin: "auto" }}>Recent <span class="text-color">Work</span></h2>
+                <h2 className='title-text mt-5' style={{ width: "200px", margin: "auto" }}>Recent <span className="text-color">Work</span></h2>
             </header>
             <Container className="my-5">
                 <Row className="m-auto">

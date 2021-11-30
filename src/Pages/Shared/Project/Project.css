@@ -1,17 +1,41 @@
 .card-img{
-    border       : 8px var(--white-alpha-40) solid !important;
-    border-radius: 10px;
-    box-sizing   : border-box;
+    /* border       : 8px var(--white-alpha-40) solid !important; */
+    /* border-radius: 10px; */
+    /* box-sizing   : border-box; */
     overflow       : hidden;
 
 }
 .card img{
+    transform: scale(1.2);
     transition:all 0.5s !important;
 }
-.card{
+.card{ 
     overflow: hidden;
-    background: rgba(65, 39, 112, 0.836);
+    position: relative;
+    top: 0;
+    background: rgba(50, 23, 99, 0.836);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: all 0.5s;
+}
+.card:hover{
+    /* position: relative; */
+    top: -20px;
+    box-shadow: rgba(250, 246, 246, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 .card:hover img{
-    transform: scale(1.1);
+    transform: scale(0.3);
+}
+.code{
+    float: right;
+    margin-top: 8px;
+}
+.code .fa, .fas{
+    font-size: 36px;
+    color: azure;
+}
+.code .fa:hover{
+    color:var(--main-color);
+}
+.fas:hover{
+    color: var(--blue)
 }

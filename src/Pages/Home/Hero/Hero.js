@@ -15,10 +15,10 @@ const Hero = () => {
                 <Row className="align-items-center justify-content-center">
                     <Col sm={12} lg={7} className="order-1 order-lg-0">
                         <div className="text-area text-sm-center text-lg-start pb-5">
-                            <p>Hello,<span class="text-color">I'm👋🏼</span></p>
+                            <p>Hello,<span className="text-color">I'm👋🏼</span></p>
                             <h1>Abu Daud Hossain</h1>
                             <h3>I'm a {" "}
-                                <span class="text-color">
+                                <span className="text-color">
                                     <Typical
                                         loop={Infinity}
                                         wrapper="n"
