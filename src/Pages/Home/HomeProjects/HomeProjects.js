@@ -11,7 +11,7 @@ const HomeProjects = () => {
         .then(res =>res.json())
         .then(data => setMyProjects(data));
     },[])
-    console.log(myProjects)
+    // console.log(myProjects)
     return (
         <section id="project">
             <header>

@@ -26,8 +26,8 @@ function App() {
           <Route path='/about' element={<AboutUs />} />
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/details' element={<Details />} />
-          <Route path='/blog' element={<Blogs />} />
+          <Route path='/details/:serialNo' element={<Details />} />
+          <Route path='/blog/:id' element={<Blogs />} />
           <Route path='/messageSend' element={<Thanks />} />
 
         </Routes>
