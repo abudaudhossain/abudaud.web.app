@@ -24,13 +24,13 @@ const HomeAbout = () => {
                             <p> Also, I have gathered vast knowledge about coding, designing, markup languages, and other things that are related to this sector. I have already developed 9 projects with JavaScript and React.js.
                         </p>
                         <h3 class="skill-text">Skill</h3>
-                        <span class="skill-myBtn mr">Css</span>
-                        <span class="skill-myBtn mr">HTML</span>
-                        <span class="skill-myBtn mr">CSS</span>
                         <span class="skill-myBtn mr">JavaScript</span>
-                        <span class="skill-myBtn mr">C++</span>
-                        <span class="skill-myBtn mr">Python</span>
+                        <span class="skill-myBtn mr">React JS</span>
+                        <span class="skill-myBtn mr">HTML5</span>
+                        <span class="skill-myBtn mr">Css3</span>
+                        <span class="skill-myBtn mr">Bootstrap</span>
                         <span class="skill-myBtn mr">Node js</span>
+                        <span class="skill-myBtn mr">C++</span>
 
                         <div>
                             <Link class="myBtn mr" to="/about">More about me</Link>
