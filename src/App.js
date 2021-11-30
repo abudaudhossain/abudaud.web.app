@@ -10,6 +10,8 @@ import ContactUs from "./Pages/ContactUs/ContactUs/ContactUs";
 import Portfolio from "./Pages/Portfolio/Portfolio/Portfolio";
 import TopNavbar from "./Pages/Shared/TopNavbar/TopNavbar";
 import Thanks from "./Pages/Thanks/Thanks";
+import Details from "./Pages/Details/Details/Details";
+import Blogs from "./Pages/Blogs/Blogs/Blogs";
 
 
 
@@ -24,6 +26,8 @@ function App() {
           <Route path='/about' element={<AboutUs />} />
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/details' element={<Details />} />
+          <Route path='/blog' element={<Blogs />} />
           <Route path='/messageSend' element={<Thanks />} />
 
         </Routes>

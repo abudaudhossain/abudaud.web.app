@@ -7,7 +7,7 @@ const ContactUs = () => {
     return (
         <section id="contact">
             <header className="mb">
-                <h2 className="title-text" style={{ width: "200px", margin: "auto" }}>Contacts <span className="text-color">Us</span></h2>
+                <h2 className="title-text" style={{ width: "200px", margin: "auto" }}>Contacts <span className="text-color">Me</span></h2>
             </header>
             <Container className="py-5">
                 <Row>

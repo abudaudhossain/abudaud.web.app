@@ -2,9 +2,9 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <div>
-            <h1>This Portfolio</h1>
-        </div>
+        <div className="my-5 text-center">
+        <h1>Coming Soon</h1>
+    </div>
     );
 };
 

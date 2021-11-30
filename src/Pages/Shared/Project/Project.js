@@ -12,7 +12,7 @@ const Project = ({ myProject }) => {
                 <Card.Img variant="top" src={myProject.image} />
             </div>
             <Card.Body>
-                <Card.Title>{myProject.name}</Card.Title>
+                <Card.Title><h3>{myProject.name}</h3></Card.Title>
                 <Card.Text>
                     {myProject.description.slice(0, 100)}...
                 </Card.Text>
