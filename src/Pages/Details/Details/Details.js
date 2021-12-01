@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import useFeckData from '../../../hooks/feckData';
-import img from "../../../dentalCare.png";
-import profile from "../../../img2.png";
 
 const Details = () => {
     let img2;
@@ -16,7 +14,7 @@ const Details = () => {
     if (!myProject) {
         return <h1>Loading....</h1>
     }
-    const { name, image, link, features, technology, description } = myProject;
+    const { name, image, link,allImage, features, technology, description } = myProject;
     if (!showImg) {
         setShowImg(image);
     }
@@ -28,8 +26,10 @@ const Details = () => {
                 <img className="img-thumbnail" style={{ height: "80vh" }} src={showImg} alt="" />
                 <div className="my-3">
                     <img className="me-3" onClick={() => setShowImg(image)} src={image} style={{ width: "100px", height: "60px" }} alt="" />
-                    <img className="me-3" onClick={() => setShowImg(img)} src={img} style={{ width: "100px", height: "60px" }} alt="" />
-                    <img className="me-3" onClick={() => setShowImg(profile)} src={profile} style={{ width: "100px", height: "60px" }} alt="" />
+                    {
+                        allImage.map(image =><img key={image} className="me-3" onClick={() => setShowImg(image)} src={image} style={{ width: "100px", height: "60px" }} alt="" />)
+                    }
+                    
                 </div>
             </div>
             <div className="mt-5">
