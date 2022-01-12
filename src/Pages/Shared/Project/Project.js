@@ -17,7 +17,7 @@ const Project = ({ myProject }) => {
                     {myProject.description.slice(0, 100)}...
                 </Card.Text>
                 {
-                    myProject.technology.map(tech => <span key={tech} className="skill-myBtn mr">{tech}</span>)
+                    myProject.technology?.slice(0, 5).map(tech => <span key={tech} className="skill-myBtn mr">{tech}</span>)
                 }
             </Card.Body>
             <Card.Footer>

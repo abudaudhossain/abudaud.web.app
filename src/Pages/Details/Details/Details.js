@@ -8,7 +8,7 @@ const Details = () => {
     const [showImg, setShowImg] = useState(img2);
     // const [myAllProjects, setMyAllProjects] = useState([]);
     const { serialNo } = useParams();
-    const useProjects = useFeckData();
+    const {useProjects} = useFeckData();
     const projects = useProjects();
     const myProject = projects.find(project => project.serialNo === parseInt(serialNo))
     if (!myProject) {

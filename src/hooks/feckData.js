@@ -3,13 +3,13 @@ import { useEffect, useState } from 'react';
 const useFeckData = () => {
 
     const useProjects = () => {
-        const [myProjects, serMyProjects] = useState([]);
+        const [myProjects, setMyProjects] = useState([]);
 
         useEffect(() => {
             fetch('/projects.json')
                 .then(res => res.json())
                 .then(data => {
-                    serMyProjects(data);
+                    setMyProjects(data);
                 }).catch(err => {
                     console.log(err.message);
                 })
@@ -17,7 +17,26 @@ const useFeckData = () => {
 
         return myProjects;
     }
-    return useProjects;
+
+    
+    const useBestProjects = () => {
+        const [myBestProjects, setMyBestProjects] = useState([]);
+
+        useEffect(() => {
+            fetch('/BestProjects.json')
+                .then(res => res.json())
+                .then(data => {
+                    setMyBestProjects(data);
+                }).catch(err => {
+                    console.log(err.message);
+                })
+        }, [])
+
+        return myBestProjects;
+    }
+
+
+    return {useProjects, useBestProjects};
 
 }
 

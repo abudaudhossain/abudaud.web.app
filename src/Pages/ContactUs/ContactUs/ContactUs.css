@@ -23,7 +23,6 @@ textarea {
     width           : 80%;
     margin          : 10px;
     padding         : 10px;
-    background-color: var(--white-alpha-40);
     border          : none;
     font-size       : 1rem;
     border-radius   : 25px;

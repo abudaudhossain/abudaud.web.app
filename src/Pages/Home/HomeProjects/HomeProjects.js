@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {Col, Container, Row } from 'react-bootstrap';
+import useFeckData from '../../../hooks/feckData';
 import Project from '../../Shared/Project/Project';
 import './HomeProjects.css';
 
 const HomeProjects = () => {
-    const [myProjects, setMyProjects] = useState([]);
-
-    useEffect(() =>{
-        fetch("./projects.json")
-        .then(res =>res.json())
-        .then(data => setMyProjects(data));
-    },[])
-    // console.log(myProjects)
+    const {useBestProjects} = useFeckData();
+    const  myProjects = useBestProjects();
     return (
         <section id="project">
             <header>

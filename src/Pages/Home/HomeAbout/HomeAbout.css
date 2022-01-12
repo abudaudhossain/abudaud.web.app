@@ -6,7 +6,7 @@
     border-radius   : 30px;
     margin-right    : 50px;
 }
-h3.skill-text {
+h3.skill-text, .mySkill {
     font-size  : 1.5rem;
     font-weight: bold;
     margin     : 20px 0;
@@ -14,7 +14,7 @@ h3.skill-text {
 
 }
 
-h3.skill-text::before {
+h3.skill-text::before, .mySkill::before {
     content         : '';
     width           : 100%;
     height          : 2px;

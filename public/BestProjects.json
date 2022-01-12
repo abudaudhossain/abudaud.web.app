@@ -1,0 +1,128 @@
+[
+    {
+        "serialNo": 1,
+        "name": "BestMart+ e-commerce",
+        "description": "Users can add cart products, See product details , increase and decrease product quantity and also can order multiple products. User creates his account by signup after he sign-in and also can google sign in BestMart+website.BestMart+ Website has an admin plane here admin see the total, pending order and also bar chart and pie chart",
+        "technology": [
+            "React JS",
+            "React-Bootstrap",
+            "CSS",
+            "JavaScript",
+            "Rechart",
+            "Axios JS",
+            "React Router v6",
+            "Node JS",
+            "Express.JS",
+            "MongoDB",
+            "Heroku"
+        ],
+        "features": [
+            "Clean and modern design",
+            "Latest Bootstrap version",
+            "A MERN stack web application with a dynamic services section.",
+            "Firebase Authentication and registration by email, password, and name",
+            "An admin can add a new service that will be visible in the services and can make a new admin",
+            "Has client feedback option. A client can tell us of his observation * Client Order Product and see All Order",
+            "Use React Router, Route will be private/protected routes and Use Context API",
+            "Clean code and easy to customize",
+            "owl carousel",
+            "Responsive Layout",
+            "Cross Browser compatible"
+        ],
+        "image": "https://i.ibb.co/bXsM34v/best-mart.png",
+        "allImage": [
+            "https://i.ibb.co/bXsM34v/best-mart.png",
+            "https://i.ibb.co/vHC1m30/best-mart1.png",
+            "https://i.ibb.co/cgSLQXD/best-mart2.png"
+        ],
+        "link": {
+            "live": "https://best-mart-sd.web.app/",
+            "client": "https://github.com/abudaudhossain/best-mart-",
+            "server": "https://github.com/abudaudhossain/best-mart-server"
+        }
+    },
+    {
+        "serialNo": 2,
+        "name": "Softy Shop",
+        "description": "Users can add cart products, See product details , increase and decrease product quantity and also can order multiple products. User creates his account by signup after he sign-in and also can google sign in Softy Shop website.Softy Shop Website has an admin plane here admin see the total, pending order and also bar chart and pie chart",
+        "technology": [
+            "React JS",
+            "React-Bootstrap",
+            "CSS",
+            "JavaScript",
+            "Rechart",
+            "Axios JS",
+            "React Router v6",
+            "Node JS",
+            "Express.JS",
+            "MongoDB",
+            "Heroku"
+        ],
+        "features": [
+            "Clean and modern design",
+            "Latest Bootstrap version",
+            "A MERN stack web application with a dynamic services section.",
+            "Firebase Authentication and registration by email, password, and name",
+            "An admin can add a new service that will be visible in the services and can make a new admin",
+            "Has client feedback option. A client can tell us of his observation * Client Order Product and see All Order",
+            "Use React Router, Route will be private/protected routes and Use Context API",
+            "Clean code and easy to customize",
+            "owl carousel",
+            "Responsive Layout",
+            "Cross Browser compatible"
+        ],
+        "image": "https://i.ibb.co/HNqBBwV/shofty-shop2.png",
+        "allImage": [
+            "https://i.ibb.co/qCgkcND/shoty-shop.png",
+            "https://i.ibb.co/sJ3XrmS/shofty-shop1.png",
+            "https://i.ibb.co/HNqBBwV/shofty-shop2.png"
+        ],
+        "link": {
+            "live": "https://softy-shop-web.web.app/",
+            "client": "https://github.com/CoderDotJs/co-op-project",
+            "server": "https://github.com/abudaudhossain/softy-shop-server"
+        }
+    },
+    {
+        "serialNo": "3",
+        "name": "Online Bike Shope",
+        "description": "This is a versatile and user-friendly Shopify website. The specially designed Shop Page of This is ideal for showcasing products in the most attractive way. Not just Homepage or Shop Page, I use other inbuilt layouts for inner pages such as Explore, DashBoard Page in an equally attractive way. This makes it all easy.",
+        "technology": [
+            "React JS",
+            "React-Bootstrap",
+            "CSS",
+            "JavaScript",
+            "Rechart",
+            "Axios JS",
+            "React Router v6",
+            "Node JS",
+            "Express.JS",
+            "MongoDB",
+            "Heroku"
+        ],
+        "features": [
+            "Clean and modern design",
+            "Latest Bootstrap version",
+            "A MERN stack web application with a dynamic services section.",
+            "Firebase Authentication and registration by email, password, and name",
+            "An admin can add a new service that will be visible in the services and can make a new admin",
+            "Has client feedback option. A client can tell us of his observation * Client Order Product and see All Order",
+            "Use React Router, Route will be private/protected routes and Use Context API",
+            "Clean code and easy to customize",
+            "owl carousel",
+            "Responsive Layout",
+            "Cross Browser compatible"
+        ],
+        "image": "https://i.ibb.co/1sZhVLq/Motor-Bike.png",
+        "allImage": [
+            "https://i.ibb.co/BLp8cZG/onlineshope.png",
+            "https://i.ibb.co/HrwdcXn/dashboard-manage-Product.png",
+            "https://i.ibb.co/6tm6CyM/dashboard-manage-All-Order.png"
+        ],
+        "link": {
+            "live": "https://online-bike-shop.web.app/",
+            "client": "https://github.com/abudaudhossain/Online-Bike-Shope-client",
+            "server": "https://github.com/abudaudhossain/Online-Bike-Shope-server"
+        }
+    }
+]
